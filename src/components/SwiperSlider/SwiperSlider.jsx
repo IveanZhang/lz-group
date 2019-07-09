@@ -5,7 +5,7 @@ import { Carousel } from 'antd';
 
 class SwiperSlider extends React.Component {
     state = {
-        dotPosition: 'right',
+        dotPosition: 'left',
     };
 
     handlePositionChange = ({ target: { value: dotPosition } }) => this.setState({ dotPosition });
@@ -13,19 +13,22 @@ class SwiperSlider extends React.Component {
     render() {
         const { dotPosition } = this.state;
         return (
-            <div>
-                <Carousel dotPosition={dotPosition}
-                    autoplay={false}
-                >
-                    <div>
-                        <div className='carousel-slide'>
-                            <video autoPlay muted loop>
-                                <source src="https://mdn.alipayobjects.com/afts/file/A*grJPTKqmP9QAAAAAAAAAAABjAQAAAQ?bz=antv_site" />
-                            </video>
-                            <h3>fdsfds</h3>
-                        </div>
+            <div className='carousel-container'>
+                <Carousel dotPosition={dotPosition}>
+                    <div className='carousel-slider'>
+                        <h3>1</h3>
                     </div>
-                </Carousel >
+                    <div className='carousel-slider'>
+                        <h3>2</h3>
+                    </div>
+                    <div className='carousel-slider'>
+                        <h3>3</h3>
+                    </div>
+                    <div className='carousel-slider'>
+                        <h3>4</h3>
+                    </div>
+                </Carousel>
+
             </div>
         );
     }
