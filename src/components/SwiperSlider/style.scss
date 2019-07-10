@@ -1,15 +1,30 @@
 .ant-carousel .slick-slide {
-  text-align: center;
-  height: 160px;
-  line-height: 160px;
-  background: transparent;
-  overflow: hidden;
-}
+    text-align: center;
+    background: transparent;
+    overflow: hidden;
+  }
 
 .carousel-slider {
-    height: 100vh;
-}
+  min-height: 100vh;
 
-.ant-carousel .slick-slide h3 {
-  color: #fff;
+  .title-desc {
+      margin-top: 35vh;
+      margin-bottom: 30px;
+  }
+  .title {
+    color: #fff;
+    margin: 0 auto;
+    width: 26%;
+    font-size: 64px;
+    font-weight: 500;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+  .desc{
+    margin: 0 auto;
+    width: 60%;
+    color: #fff;  
+    font-size: 20px;
+    font-weight: 400;
+  }
 }

@@ -16,19 +16,26 @@ class SwiperSlider extends React.Component {
             <div className='carousel-container'>
                 <Carousel dotPosition={dotPosition}>
                     <div className='carousel-slider'>
-                        <h3>1</h3>
+                        <div className='section-content'>
+                            <div className='title-desc'>
+                                <div className='title'>量子集团</div>
+                            </div>
+                            <div className='desc'>
+                                量子集团是一家以教育为核心国际化集团。聚焦全球精英人才的发展与培养，以专注、专业、专⼼的敬业精神，为新⽣生代的教育和思维拓宽路径。
+                            </div>
+                        </div>
                     </div>
                     <div className='carousel-slider'>
-                        <h3>2</h3>
-                    </div>
-                    <div className='carousel-slider'>
-                        <h3>3</h3>
-                    </div>
-                    <div className='carousel-slider'>
-                        <h3>4</h3>
-                    </div>
-                </Carousel>
+                        <div className='section-content'>
+                            <div className='title-desc'>
+                                <div className='title'>关于量子</div>
+                            </div>
+                            <div className='desc'>
+                                量子集团是一家以教育为核心国际化集团。聚焦全球精英人才的发展与培养，以专注、专业、专⼼的敬业精神，为新⽣生代的教育和思维拓宽路径。
+                            </div>
+                        </div>                    </div>
 
+                </Carousel>
             </div>
         );
     }
