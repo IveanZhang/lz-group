@@ -5,7 +5,6 @@ import BackgroundVideoPlayer from '../../components/BackgroundVideoPlayer/Backgr
 
 import './style.scss';
 
-
 export default () => {
     return (
         <div>
