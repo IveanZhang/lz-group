@@ -33,6 +33,17 @@
     font-size: 20px;
     font-weight: 400;
   }
+  .desc-detail{
+    margin-top: 35vh;
+    margin-bottom: 30px;
+    .desc-detail-content{
+      margin: 0 auto;
+      width: 40%;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;                    
+    }
+  }
   .arrow {
     position: absolute;
     bottom: 18px;
