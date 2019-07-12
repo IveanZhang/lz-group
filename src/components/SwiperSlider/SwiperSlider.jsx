@@ -30,7 +30,7 @@ class SwiperSlider extends React.Component {
                                                     <a href="project-5.html" className="veiw-c effect-ajax"
                                                         data-swiper-parallax="25" data-dsn-ajax="slider">
                                                         <span>
-                                                            <span></span> Discover
+                                                            <span></span> 关于我们
                                                     </span>
                                                     </a>
                                                 </div>
