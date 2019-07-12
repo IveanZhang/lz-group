@@ -16,7 +16,7 @@ class SwiperSlider extends React.Component {
                                         <div className="inner-hero">
 
                                             <div className="bg">
-                                                <div className="bg-image cover-bg" data-image-src="http://theme.dsngrid.com/alcy/assets/img/slider-5.jpg"
+                                                <div className="bg-image cover-bg" data-image-src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
                                                     data-overlay="4"></div>
                                             </div>
                                             <div className="container">
@@ -31,7 +31,7 @@ class SwiperSlider extends React.Component {
                                                         data-swiper-parallax="25" data-dsn-ajax="slider">
                                                         <span>
                                                             <span></span> 关于我们
-                                                    </span>
+                                                        </span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -42,7 +42,7 @@ class SwiperSlider extends React.Component {
                                         <div className="inner-hero">
 
                                             <div className="bg">
-                                                <div className="bg-image cover-bg" data-image-src="http://theme.dsngrid.com/alcy/assets/img/slider-3.jpg"
+                                                <div className="bg-image cover-bg" data-image-src="https://images.unsplash.com/photo-1470219556762-1771e7f9427d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80"
                                                     data-overlay="4"></div>
                                             </div>
 
@@ -69,7 +69,7 @@ class SwiperSlider extends React.Component {
                                         <div className="inner-hero">
 
                                             <div className="bg">
-                                                <div className="bg-image cover-bg" data-image-src="http://theme.dsngrid.com/alcy/assets/img/slider-4.jpg"
+                                                <div className="bg-image cover-bg" data-image-src="https://images.unsplash.com/photo-1535776142635-8fa180c46af7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1856&q=80"
                                                     data-overlay="4"></div>
                                             </div>
 
