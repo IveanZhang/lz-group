@@ -1,51 +1,122 @@
 import React from 'react';
-import 'antd/dist/antd.css';
 import './style.scss';
-import { Carousel } from 'antd';
 
 class SwiperSlider extends React.Component {
-    state = {
-        dotPosition: 'left',
-    };
-
-    handlePositionChange = ({ target: { value: dotPosition } }) => this.setState({ dotPosition });
 
     render() {
-        const { dotPosition } = this.state;
         return (
-            <div className='carousel-container'>
-                <Carousel dotPosition={dotPosition}>
-                    <div className='carousel-slider'>
-                        <div className='section-content'>
-                            <div className='title-desc'>
-                                <div className='title'>量子集团</div>
+            <main className="inner-wrap inner-wrap-slider">
+                <div className="home-footers"></div>
+                <header className="hero">
+                    <div className="inner">
+                        <div className="slider-box">
+                            <div className="swiper-container">
+                                <div className="swiper-wrapper">
+                                    <div className="slider-item swiper-slide">
+                                        <div className="inner-hero">
+
+                                            <div className="bg">
+                                                <div className="bg-image cover-bg" data-image-src="http://theme.dsngrid.com/alcy/assets/img/slider-5.jpg"
+                                                    data-overlay="4"></div>
+                                            </div>
+                                            <div className="container">
+                                                <div className="info">
+                                                    <div className="tagline" data-swiper-parallax="-25">
+                                                        <span>01</span>
+                                                        <h6>赋能企业，共享未来</h6>
+                                                    </div>
+                                                    <h1 data-swiper-parallax-x="-25" data-swiper-parallax-scale="1.2"
+                                                        data-swiper-parallax-opacity="0">量子集团</h1>
+                                                    <a href="project-5.html" className="veiw-c effect-ajax"
+                                                        data-swiper-parallax="25" data-dsn-ajax="slider">
+                                                        <span>
+                                                            <span></span> Discover
+                                                    </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div className="slider-item swiper-slide">
+                                        <div className="inner-hero">
+
+                                            <div className="bg">
+                                                <div className="bg-image cover-bg" data-image-src="http://theme.dsngrid.com/alcy/assets/img/slider-3.jpg"
+                                                    data-overlay="4"></div>
+                                            </div>
+
+                                            <div className="container">
+                                                <div className="info">
+                                                    <div className="tagline" data-swiper-parallax="-25">
+                                                        <span>02</span>
+                                                        <h6>平台构建希望，用心成就未来</h6>
+                                                    </div>
+                                                    <h1 data-swiper-parallax-x="-25" data-swiper-parallax-scale="1.2"
+                                                        data-swiper-parallax-opacity="0">量子集团</h1>
+                                                    <a href="project-3.html" className="veiw-c effect-ajax"
+                                                        data-swiper-parallax="25" data-dsn-ajax="slider">
+                                                        <span>
+                                                            <span></span> 关于我们
+                                                    </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div className="slider-item swiper-slide">
+                                        <div className="inner-hero">
+
+                                            <div className="bg">
+                                                <div className="bg-image cover-bg" data-image-src="http://theme.dsngrid.com/alcy/assets/img/slider-4.jpg"
+                                                    data-overlay="4"></div>
+                                            </div>
+
+                                            <div className="container">
+                                                <div className="info">
+                                                    <div className="tagline" data-swiper-parallax="-25">
+                                                        <span>03</span>
+                                                        <h6>精诚铸就品牌，平台重塑格局</h6>
+                                                    </div>
+                                                    <h1 data-swiper-parallax-x="-25" data-swiper-parallax-scale="1.2"
+                                                        data-swiper-parallax-opacity="0">量子集团</h1>
+                                                    <a href="project-4.html" className="veiw-c effect-ajax"
+                                                        data-swiper-parallax="25" data-dsn-ajax="slider">
+                                                        <span>
+                                                            <span></span> 关于我们
+                                                    </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div className='desc'>
-                                量子集团是一家以教育为核心国际化集团。聚焦全球精英人才的发展与培养，以专注、专业、专⼼的敬业精神，为新⽣生代的教育和思维拓宽路径。
+
+                        </div>
+
+                        <div className="dsn-grid-nav-box">
+                            <div className="boxnav-item to-prev" data-dsn-grid="parallax" data-dsn-grid-move="20">
+                                <i className="fas fa-chevron-left"></i>
                             </div>
-                        </div>
-                        <div className='arrow'>
-                            <a href='#'>
-                                <img alt='arrow' className="arrow-img" src="https://gw.alipayobjects.com/zos/rmsportal/cfUeahyjXCvoeUHrZDcE.svg" width="64" height="64"></img>
-                            </a>
-                        </div>
-                    </div>    
-                    <div className='carousel-slider'>
-                        <div className='section-content'>
-                            <div className='desc-detail'>
-                                <div className='desc-detail-content'>
-                                    集团专业团队结合多伦多、蒙特利利尔、温哥华等主要留留学⽬的地的教育优势，以未来职业发展需要为目标，为国际学⽣的留学、就业、创业提供服务。为旅游、⾦融、地产、⽂化和健康等相关领域和产业提供渠道和资源。
+
+                            <div className="boxnav-item to-next" data-dsn-grid="parallax" data-dsn-grid-move="20">
+                                <i className="fas fa-chevron-right"></i>
+                            </div>
+
+                            <div className="boxnav-item boxnav-item-progress">
+                                <div className="boxnav-progress">
+                                    <span className="progress-item"></span>
+                                </div>
+                                <div className="number">
+
                                 </div>
                             </div>
                         </div>
-                        <div className='arrow'>
-                            <a href='#'>
-                                <img alt='arrow' className="arrow-img" src="https://gw.alipayobjects.com/zos/rmsportal/cfUeahyjXCvoeUHrZDcE.svg" width="64" height="64"></img>
-                            </a>
-                        </div>                    
                     </div>
-                </Carousel>
-            </div>
+                </header>
+            </main>
         );
     }
 }
