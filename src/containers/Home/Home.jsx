@@ -38,7 +38,7 @@ export default () => {
 
                 <div className="cursor-helper cursor-link"></div>
             </div>
-            <SideBar></SideBar>
+            {/* <SideBar></SideBar> */}
             <Navbar></Navbar>
             <SwiperSlider></SwiperSlider>
         </div>
