@@ -1,5 +1,6 @@
 import React from 'react';
 import 'antd/dist/antd.css';
+import SideBar from '../../components/SideBar/SideBar';
 import Navbar from '../../components/Navbar/Navbar';
 import SwiperSlider from '../../components/SwiperSlider/SwiperSlider';
 
@@ -37,7 +38,7 @@ export default () => {
 
                 <div className="cursor-helper cursor-link"></div>
             </div>
-
+            <SideBar></SideBar>
             <Navbar></Navbar>
             <SwiperSlider></SwiperSlider>
         </div>
