@@ -6,8 +6,8 @@ import './style.scss';
 
 export default (props) => {
     return (
-        <div className="nav">
-            <div className='nav-container text-center'>
+        <div className="banner">
+            <div className='banner-container text-center'>
                 <Row type="flex" justify="center">
                     <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                         <Row type="flex" justify="center">

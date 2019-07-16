@@ -1,9 +1,9 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import SideBar from '../../components/SideBar/SideBar';
-import Navbar from '../../components/Navbar/Navbar';
 
 import './style.scss';
+import NavBarFixed from '../../components/NavBarFixed/NavBarFixed';
 
 export default () => {
     return (
@@ -39,7 +39,7 @@ export default () => {
             </div>
 
             <SideBar></SideBar>
-            <Navbar></Navbar>
+            <NavBarFixed></NavBarFixed>
         </div>
     );
 };
