@@ -1,5 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
+import {Link } from "react-router-dom";
+
 import './style.scss';
 
 export default (props) => {
@@ -16,7 +18,7 @@ export default (props) => {
                     </Col>
                     <Col xs={14} sm={14} md={14} lg={14} xl={14}>
                         <Row type="flex" justify="start">
-                            <div className='nav-item'><a className='nav-link' href=''>关于量子</a></div>
+                            <div className='nav-item'><Link to='/about' className='nav-link' >关于量子</Link></div>
                             <div className='nav-item'><a className='nav-link' href=''>量子产业</a></div>
                             <div className='nav-item'><a className='nav-link' href=''>量子咨询</a></div>
                             <div className='nav-item'><a className='nav-link' href=''>联系我们</a></div>

@@ -2,16 +2,15 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import SideBar from '../../components/SideBar/SideBar';
 import Navbar from '../../components/Navbar/Navbar';
-import SwiperSlider from '../../components/SwiperSlider/SwiperSlider';
 
 import './style.scss';
 
 export default () => {
     return (
-        <div className="dsn-ajax dsn-ajax dsn-effect-scroll" data-dsn-mousemove="true">
+        <div className="dsn-ajax dsn-ajax " data-dsn-mousemove="true">
 
             <div className="preloader">
-                <div className="preloader-after"></div>
+                {/* <div className="preloader-after"></div>
                 <div className="preloader-before"></div>
                 <div className="preloader-block">
                     <div className="title">量子集团</div>
@@ -20,7 +19,7 @@ export default () => {
                 </div>
                 <div className="preloader-bar">
                     <div className="preloader-progress"></div>
-                </div>
+                </div> */}
             </div>
 
             <div className="cursor">
@@ -38,9 +37,9 @@ export default () => {
 
                 <div className="cursor-helper cursor-link"></div>
             </div>
+
             <SideBar></SideBar>
             <Navbar></Navbar>
-            <SwiperSlider></SwiperSlider>
         </div>
     );
 };
