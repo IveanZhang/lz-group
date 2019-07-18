@@ -858,7 +858,7 @@ a {
 }
 
 img {
-  width: 100%;
+  /*width: 100%;*/
   max-width: 100%;
   height: auto;
   vertical-align: middle;
@@ -2151,8 +2151,43 @@ body.nav-dropdown-active .menu-full .menu-item a {
 
 .navbar{
   position: absolute;
-  height: 50px;
+  height: auto;
+  width: 100%;
   z-index: 9999;
+}
+
+.navbar .navbar-img{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar .navbar-img img{
+  padding-top: 8px;
+}
+
+.navbar .navbar-container{
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .navbar-list{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navbar .navbar-item{
+  padding: 10px 30px;
+}
+
+.navbar .navbar-item a{
+  font-size: 16px;
+  color: #fff;
+}
+
+.navbar .navbar-item a:hover{
+  color: #fab700;
 }
 
 .sidebar {
