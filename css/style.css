@@ -10128,7 +10128,7 @@ header .search-form .form-control {
   right: 0;
   bottom: 0;
   background: #000;
-  opacity: .05;
+  opacity: .2;
 }
 
 .slider-item .slider-text {
@@ -10143,7 +10143,7 @@ header .search-form .form-control {
 }
 
 .slider-item .slider-text h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #fff;
   line-height: 1.2;
   font-weight: 700 !important;
