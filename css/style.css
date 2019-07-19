@@ -8675,6 +8675,12 @@ header .search-form .form-control {
     display: block;
     margin-bottom: 10px;
 }
+.section .article-title{
+    color: #303030;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
 .site-footer {
     padding: 3em 0;
     background: #333;
