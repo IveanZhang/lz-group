@@ -8616,7 +8616,6 @@ header .search-form .form-control {
     -o-transition: .3s all ease;
     transition: .3s all ease;
     width: 100%;
-    height: 250px;
 }
 .media-custom:focus img, .media-custom:hover img {
     -webkit-transform: scale(1.1);
